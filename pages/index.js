@@ -149,7 +149,7 @@ export default function Home() {
           </div>
         </section>
         <section className="w-9/12 px-4">
-          <p className="text-xl mb-2">Today's Headline</p>
+          <p className="text-xl mb-2">Headline News</p>
           <div className="rounded-xl bg-white p-1">
             <img src={featuredPost.image} alt="" className="rounded-xl" />
             <div className="flex justify-between px-4 mt-2">

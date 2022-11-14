@@ -130,7 +130,7 @@ export default function Home() {
           <p className="text-xl font-bold mb-4">{news.title}</p>
           <img src={news.image} className="object-cover w-2/3 mb-4"></img>
           {/* <p>{news.post_content}</p> */}
-          <ReactMarkdown children={news.post_content} />
+          <ReactMarkdown>{news.post_content}</ReactMarkdown>
         </main>
       )}
     </div>
